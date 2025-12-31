@@ -4,23 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funngro | Hire Pre-Vetted Teen & Women Talent | Shark Tank India</title>
-    <meta name="description" content="Funngro: India's Shark Tank funded platform connecting Teenlancers (14-19) & Shelancers with companies. Teenlancers earn ₹5K-₹50K/month, Shelancers earn ₹10K-₹1L/month, companies save 40-60% on talent costs. 10,000+ verified professionals, parent-approved, secure payments.">
-    <meta name="keywords" content="teen freelancers India, women freelancers platform, hire young talent, Shark Tank India startup, remote work for students, flexible jobs for women, digital marketing freelancers, content writing jobs, graphic design projects, video editing work, safe freelancing for teens, parent-approved work, freelance platform India, hire affordable talent, student jobs online">
-    <meta property="og:title" content="Funngro | Teen & Women Talent Platform | Shark Tank India">
-    <meta property="og:description" content="Join 10,000+ Teenlancers & Shelancers earning real money on verified projects. Or hire affordable, pre-vetted talent for your business. Shark Tank India backed.">
-    <meta property="og:image" content="https://www.funngro.com/images/og-image.jpg">
-    <meta property="og:url" content="https://www.funngro.com">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Funngro">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Funngro | Earn or Hire Talent | Shark Tank India">
-    <meta name="twitter:description" content="Teenlancers earn ₹5K-₹50K/month. Shelancers earn ₹10K-₹1L/month. Companies save 40-60% on talent costs. Shark Tank funded platform.">
-    <meta name="twitter:image" content="https://www.funngro.com/images/twitter-card.jpg">
-    <meta name="twitter:site" content="@funngro">
-    <meta name="author" content="Funngro">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-    <link rel="canonical" href="https://www.funngro.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -264,7 +247,6 @@ nav {
     color: hsl(0, 0%, 100%);
 }
 
-
 .hero-visual {
     display: flex;
     justify-content: center;
@@ -333,7 +315,7 @@ nav {
     border-radius: 2px;
 }
 
-/* ===== FOR TALENT SECTION ADDED HERE ===== */
+/* ===== FOR TALENT SECTION ===== */
 .for-talent {
     background-color: var(--light-grey);
     padding: 6rem 0;
@@ -493,19 +475,19 @@ nav {
     gap: 1.5rem;
 }
 
-.calc-form-group {
+.form-group {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.calc-form-group label {
+.form-group label {
     font-weight: 600;
     color: var(--primary-dark);
 }
 
-.calc-form-group select,
-.calc-form-group input {
+.form-group select,
+.form-group input {
     padding: 12px 16px;
     border: 1px solid var(--medium-grey);
     border-radius: 8px;
@@ -514,8 +496,8 @@ nav {
     transition: var(--transition);
 }
 
-.calc-form-group select:focus,
-.calc-form-group input:focus {
+.form-group select:focus,
+.form-group input:focus {
     outline: none;
     border-color: var(--primary-green);
     box-shadow: 0 0 0 3px rgba(7, 171, 103, 0.1);
@@ -733,7 +715,7 @@ nav {
     color: var(--primary-green);
 }
 
-/* Rest of your original CSS remains exactly the same */
+/* Rest of the existing CSS remains the same */
 .how-it-works {
     background-color: var(--primary-white);
 }
@@ -1177,7 +1159,6 @@ footer {
     color: white;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     h1 {
         font-size: 2.5rem;
@@ -1299,7 +1280,7 @@ footer {
 @media (max-width: 576px) {
     h1 {
         font-size: 2rem;
-    }
+            }
 
     h2 {
         font-size: 1.75rem;
@@ -1486,7 +1467,7 @@ animation-delay: 0.2s;
         </div>
     </section>
     
-    <!-- ========== FOR TALENT SECTION ADDED HERE ========== -->
+    <!-- ========== FOR TALENT SECTION ========== -->
     <section id="for-talent" class="for-talent">
         <div class="container">
             <div class="talent-header">
@@ -1557,7 +1538,7 @@ animation-delay: 0.2s;
                 
                 <div class="calculator-content">
                     <div class="calculator-form">
-                        <div class="calc-form-group">
+                        <div class="form-group">
                             <label for="talentType">I am a:</label>
                             <select id="talentType" class="form-control">
                                 <option value="teen">Teenlancer (14-19)</option>
@@ -1565,7 +1546,7 @@ animation-delay: 0.2s;
                             </select>
                         </div>
                         
-                        <div class="calc-form-group">
+                        <div class="form-group">
                             <label for="skillLevel">My Skill Level:</label>
                             <select id="skillLevel" class="form-control">
                                 <option value="beginner">Beginner (Just starting)</option>
@@ -1574,13 +1555,13 @@ animation-delay: 0.2s;
                             </select>
                         </div>
                         
-                        <div class="calc-form-group">
+                        <div class="form-group">
                             <label for="hoursPerWeek">Hours per week:</label>
                             <input type="range" id="hoursPerWeek" min="5" max="40" value="20" class="form-control">
                             <div id="hoursValue" style="text-align: center; font-weight: 600; color: var(--primary-green);">20 hours/week</div>
                         </div>
                         
-                        <div class="calc-form-group">
+                        <div class="form-group">
                             <label for="skillArea">My Skill Area:</label>
                             <select id="skillArea" class="form-control">
                                 <option value="content">Content Writing</option>
@@ -1718,7 +1699,7 @@ animation-delay: 0.2s;
             <div class="skills-container">
                 <div class="skill-card fade-in">
                     <div class="skill-icon">
-                        <i class="fa-solid fa-pen-fancy"></i>
+                        <i class="fas fa-pen-fancy"></i>
                     </div>
                     <h4>Content Writing</h4>
                     <p>Blogs, articles, social media content</p>
@@ -1727,7 +1708,7 @@ animation-delay: 0.2s;
                 
                 <div class="skill-card fade-in delay-1">
                     <div class="skill-icon">
-                        <i class="fa-solid fa-palette"></i>
+                        <i class="fas fa-palette"></i>
                     </div>
                     <h4>Graphic Design</h4>
                     <p>Logos, social media graphics, banners</p>
@@ -1736,7 +1717,7 @@ animation-delay: 0.2s;
                 
                 <div class="skill-card fade-in delay-2">
                     <div class="skill-icon">
-                        <i class="fa-solid fa-video"></i>
+                        <i class="fas fa-video"></i>
                     </div>
                     <h4>Video Editing</h4>
                     <p>Short videos, reels, promotional content</p>
@@ -1745,7 +1726,7 @@ animation-delay: 0.2s;
                 
                 <div class="skill-card fade-in delay-3">
                     <div class="skill-icon">
-                        <i class="fa-solid fa-bullhorn"></i>
+                        <i class="fas fa-bullhorn"></i>
                     </div>
                     <h4>Digital Marketing</h4>
                     <p>Social media management, SEO</p>
@@ -1754,7 +1735,7 @@ animation-delay: 0.2s;
                 
                 <div class="skill-card fade-in">
                     <div class="skill-icon">
-                        <i class="fa-solid fa-code"></i>
+                        <i class="fas fa-code"></i>
                     </div>
                     <h4>Web Development</h4>
                     <p>Basic websites, WordPress, UI fixes</p>
@@ -1763,7 +1744,7 @@ animation-delay: 0.2s;
                 
                 <div class="skill-card fade-in delay-1">
                     <div class="skill-icon">
-                        <i class="fa-solid fa-chart-bar"></i>
+                        <i class="fas fa-chart-bar"></i>
                     </div>
                     <h4>Data Entry</h4>
                     <p>Excel, research, data processing</p>
@@ -1772,7 +1753,7 @@ animation-delay: 0.2s;
                 
                 <div class="skill-card fade-in delay-2">
                     <div class="skill-icon">
-                        <i class="fa-solid fa-language"></i>
+                        <i class="fas fa-language"></i>
                     </div>
                     <h4>Translation</h4>
                     <p>English to regional languages</p>
@@ -1781,7 +1762,7 @@ animation-delay: 0.2s;
                 
                 <div class="skill-card fade-in delay-3">
                     <div class="skill-icon">
-                        <i class="fa-solid fa-file-powerpoint"></i>
+                        <i class="fas fa-file-powerpoint"></i>
                     </div>
                     <h4>Presentation Design</h4>
                     <p>PowerPoint, pitch decks, reports</p>
@@ -1840,190 +1821,58 @@ animation-delay: 0.2s;
         </div>
     </section>
     
-    <!-- ========== FOR COMPANIES SECTION (Your Original Section) ========== -->
-    <section class="how-it-works" id="how-it-works-companies">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2>How It Works for Companies</h2>
-                <p>Simple, efficient, and designed for business success</p>
-            </div>
-
-            <div class="process-cards">
-                <div class="process-card fade-in">
-                    <div class="step-number">1</div>
-                    <h3>Post Your Task</h3>
-                    <p>Brief us on your project—design, content, SEO, or data entry. Set your budget & timeline.</p>
-                </div>
-                
-                <div class="process-card fade-in delay-1">
-                    <div class="step-number">2</div>
-                    <h3>Get Matched</h3>
-                    <p>We handpick 1-3 skilled Teenlancers or Shelancers from our vetted pool. Review profiles & portfolios.</p>
-                </div>
-                
-                <div class="process-card fade-in delay-2">
-                    <div class="step-number">3</div>
-                    <h3>Manage & Pay Securely</h3>
-                    <p>Use our dashboard to track progress. Pay only upon满意 delivery. We handle NDAs & safe payouts.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Why Funngro -->
-    <section class="why-funngro" id="why-funngro">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2>Why Choose Funngro?</h2>
-                <p>The business case for smart talent sourcing</p>
-            </div>
-            
-            <div class="features-grid">
-                <div class="feature-card fade-in">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Cost-Effective Agility</h3>
-                    <p>Get work done at 40-60% lower cost than agencies or traditional freelancers. Perfect for SMBs & startups.</p>
-                </div>
-                
-                <div class="feature-card fade-in delay-1">
-                    <div class="feature-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3>Quality, Managed Talent</h3>
-                    <p>We screen for skill & attitude. Our talent is eager to prove themselves, leading to high-quality, passionate work.</p>
-                </div>
-                
-                <div class="feature-card fade-in delay-2">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Zero Overhead, Full Compliance</h3>
-                    <p>No HR, no payroll. We handle all legalities, parental consent, and secure payments. Your risk is minimized.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Talent Categories -->
-    <section class="talent-categories" id="talent-categories">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2>Hire for Key Roles & Projects</h2>
-                <p>Tap into specialized talent across domains</p>
-            </div>
-            
-            <div class="categories-grid">
-                <div class="category-item fade-in">
-                    <div class="category-icon">
-                        <i class="fas fa-bullhorn"></i>
-                    </div>
-                    <h4>Digital Marketing</h4>
-                </div>
-                
-                <div class="category-item fade-in delay-1">
-                    <div class="category-icon">
-                        <i class="fas fa-pen-fancy"></i>
-                    </div>
-                    <h4>Content Writing</h4>
-                </div>
-                
-                <div class="category-item fade-in delay-2">
-                    <div class="category-icon">
-                        <i class="fas fa-palette"></i>
-                    </div>
-                    <h4>Graphic Design</h4>
-                </div>
-                
-                <div class="category-item fade-in delay-3">
-                    <div class="category-icon">
-                        <i class="fas fa-video"></i>
-                    </div>
-                    <h4>Video Editing</h4>
-                </div>
-                
-                <div class="category-item fade-in">
-                    <div class="category-icon">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <h4>Data Entry & Research</h4>
-                </div>
-                
-                <div class="category-item fade-in delay-1">
-                    <div class="category-icon">
-                        <i class="fas fa-hashtag"></i>
-                    </div>
-                    <h4>Social Media Management</h4>
-                </div>
-                
-                <div class="category-item fade-in delay-2">
-                    <div class="category-icon">
-                        <i class="fas fa-file-powerpoint"></i>
-                    </div>
-                    <h4>Presentation Design</h4>
-                </div>
-                
-                <div class="category-item fade-in delay-3">
-                    <div class="category-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h4>Basic App/Web Tasks</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-    
     <!-- Success Stories -->
     <section class="success-stories" id="success-stories">
         <div class="container">
             <div class="section-title fade-in">
                 <h2>Success Stories</h2>
-                <p>Hear from companies, parents, and Teenlancers</p>
+                <p>Hear from our talented community members</p>
             </div>
             
             <div class="testimonials-container">
                 <div class="testimonial-card fade-in">
                     <div class="testimonial-text">
-                        "We needed 100 product descriptions in a tight budget. Funngro's Teenlancers delivered quality work in 5 days, saving us 50% vs. a content agency. The quality exceeded our expectations."
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="author-info">
-                            <h4>Rohan Mehta</h4>
-                            <div class="author-role">Founder, TechGear Startup</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card fade-in delay-1">
-                    <div class="testimonial-text">
-                        "As a parent, I was skeptical. But Funngro's verified projects and secure payment system gave me peace of mind. My daughter now earns and learns confidently while balancing her studies."
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <i class="fas fa-user-friends"></i>
-                        </div>
-                        <div class="author-info">
-                            <h4>Priya Sharma</h4>
-                            <div class="author-role">Parent of a Teenlancer</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card fade-in delay-2">
-                    <div class="testimonial-text">
-                        "I designed logos for 3 real companies through Funngro before turning 18. The experience and certificate helped me land a design internship at a leading agency while still in college."
+                        "As a 16-year-old, I started with small content writing projects. Within 6 months, I was earning ₹25,000/month while preparing for my boards. Funngro changed my life!"
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">
                             <i class="fas fa-user-graduate"></i>
                         </div>
                         <div class="author-info">
-                            <h4>Arjun Patel</h4>
+                            <h4>Riya Sharma</h4>
                             <div class="author-role">Teenlancer, Age 17</div>
+                            <div style="color: var(--primary-green); font-weight: 600; margin-top: 5px;">₹2.5L+ earned</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in delay-1">
+                    <div class="testimonial-text">
+                        "After my maternity break, I wanted flexible work. Funngro helped me restart my graphic design career. I now earn ₹45,000/month working from home."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Anjali Patel</h4>
+                            <div class="author-role">Shelancer, Graphic Designer</div>
+                            <div style="color: var(--primary-green); font-weight: 600; margin-top: 5px;">₹5L+ earned</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in delay-2">
+                    <div class="testimonial-text">
+                        "My son started with Funngro at 15. The parental consent process gave us confidence. He's not just earning money but also learning responsibility and time management."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Mr. Verma</h4>
+                            <div class="author-role">Parent of Teenlancer</div>
                         </div>
                     </div>
                 </div>
@@ -2136,7 +1985,7 @@ animation-delay: 0.2s;
     </section>
     
     <!-- Final CTA Form -->
-    <section class="final-cta" id="final-cta">
+<section class="final-cta" id="final-cta">
         <div class="container">
             <div class="section-title fade-in">
                 <h2>Ready to Get Started?</h2>
@@ -2221,7 +2070,7 @@ animation-delay: 0.2s;
                 <div class="footer-col">
                     <h4>For Companies</h4>
                     <ul class="footer-links">
-                        <li><a href="#how-it-works-companies">How It Works</a></li>
+                        <li><a href="#final-cta">Hire Talent</a></li>
                         <li><a href="#why-funngro">Why Funngro</a></li>
                         <li><a href="#talent-categories">Browse Talent</a></li>
                         <li><a href="#">Client Login</a></li>
@@ -2270,21 +2119,6 @@ animation-delay: 0.2s;
         </div>
     </footer>
     
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Funngro",
-    "url": "https://www.funngro.com",
-    "logo": "https://www.funngro.com/logo.png",
-    "description": "Shark Tank India funded platform connecting Teenlancers (14-19) & Shelancers with companies for real projects",
-    "sameAs": [
-        "https://www.linkedin.com/company/funngro",
-        "https://twitter.com/funngro",
-        "https://www.instagram.com/funngro"
-    ]
-    }
-    </script>
     <script>
         // Mobile Menu Toggle
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
@@ -2297,20 +2131,6 @@ animation-delay: 0.2s;
                 : '<i class="fas fa-bars"></i>';
         });
         
-        // Tab Switching
-        const tabCompanies = document.getElementById('tabCompanies');
-        const tabTalent = document.getElementById('tabTalent');
-        
-        tabCompanies.addEventListener('click', () => {
-            tabCompanies.classList.add('active');
-            tabTalent.classList.remove('active');
-        });
-        
-        tabTalent.addEventListener('click', () => {
-            tabTalent.classList.add('active');
-            tabCompanies.classList.remove('active');
-        });
-        
         // Earning Calculator
         const talentTypeSelect = document.getElementById('talentType');
         const skillLevelSelect = document.getElementById('skillLevel');
@@ -2319,6 +2139,12 @@ animation-delay: 0.2s;
         const skillAreaSelect = document.getElementById('skillArea');
         const earningsAmount = document.getElementById('earningsAmount');
         
+        // Hour slider update
+        hoursPerWeekSlider.addEventListener('input', updateCalculator);
+        talentTypeSelect.addEventListener('change', updateCalculator);
+        skillLevelSelect.addEventListener('change', updateCalculator);
+        skillAreaSelect.addEventListener('change', updateCalculator);
+        
         function updateCalculator() {
             const hours = parseInt(hoursPerWeekSlider.value);
             hoursValueDisplay.textContent = `${hours} hours/week`;
@@ -2326,16 +2152,19 @@ animation-delay: 0.2s;
             // Base rates
             let baseRate = 200; // ₹ per hour base
             
+            // Adjust based on talent type
             if (talentTypeSelect.value === 'shelancer') {
                 baseRate = 300;
             }
             
+            // Adjust based on skill level
             if (skillLevelSelect.value === 'beginner') {
                 baseRate *= 0.7;
             } else if (skillLevelSelect.value === 'advanced') {
                 baseRate *= 1.5;
             }
             
+            // Adjust based on skill area
             const skillMultipliers = {
                 'content': 1.0,
                 'design': 1.3,
@@ -2346,15 +2175,14 @@ animation-delay: 0.2s;
             
             baseRate *= skillMultipliers[skillAreaSelect.value] || 1.0;
             
+            // Calculate monthly earnings (4.33 weeks/month)
             const monthlyEarnings = Math.round(hours * baseRate * 4.33);
+            
+            // Update display
             earningsAmount.textContent = `₹${monthlyEarnings.toLocaleString('en-IN')}`;
         }
         
-        hoursPerWeekSlider.addEventListener('input', updateCalculator);
-        talentTypeSelect.addEventListener('change', updateCalculator);
-        skillLevelSelect.addEventListener('change', updateCalculator);
-        skillAreaSelect.addEventListener('change', updateCalculator);
-        
+        // Initialize calculator
         updateCalculator();
         
         // Talent Registration Form
@@ -2366,26 +2194,29 @@ animation-delay: 0.2s;
             const fullName = document.getElementById('fullName').value;
             const email = document.getElementById('talentEmail').value;
             const talentType = document.getElementById('talentTypeReg').value;
+            const skill = document.getElementById('primarySkill').value;
             
             const talentTypeText = talentType === 'teenlancer' ? 'Teenlancer' : 'Shelancer';
             
-            alert(`Thank you ${fullName}! Welcome to Funngro as a ${talentTypeText}. We've sent a verification link to ${email}.`);
+            alert(`Thank you ${fullName}! Welcome to Funngro as a ${talentTypeText}. We've sent a verification link to ${email}. You'll receive project recommendations for ${skill} soon!`);
             talentRegistrationForm.reset();
         });
         
         // Company Form
         const companyLeadForm = document.getElementById('companyLeadForm');
         
-        companyLeadForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            const email = document.getElementById('companyEmail').value;
-            const companyName = document.getElementById('companyName').value;
-            const talentNeed = document.getElementById('talentNeed').value;
-            
-            alert(`Thank you, ${companyName}! We'll contact you at ${email} shortly about your ${talentNeed} needs.`);
-            companyLeadForm.reset();
-        });
+        if (companyLeadForm) {
+            companyLeadForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                const email = document.getElementById('companyEmail').value;
+                const companyName = document.getElementById('companyName').value;
+                const talentNeed = document.getElementById('talentNeed').value;
+                
+                alert(`Thank you, ${companyName}! We'll contact you at ${email} shortly about your ${talentNeed} needs.`);
+                companyLeadForm.reset();
+            });
+        }
         
         // Intersection Observer for animations
         const observerOptions = {
