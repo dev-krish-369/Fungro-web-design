@@ -1,7 +1,13 @@
 # Fungro-web-design
-this is web design of Fungro.
-for preview :-
-best by me is - https://dev-krish-369.github.io/Fungro-web-design/best.html
-and the alternative is - https://dev-krish-369.github.io/Fungro-web-design/second_design.html
 
-*****Have a good day*****
+This is the web design repository for Fungro. 
+
+## 🌐 Live Previews
+
+Explore the design layouts below (links open in a new tab):
+
+*   [**Best Design (Recommended)**](https://dev-krish-369.github.io/Fungro-web-design/best.html){:target="_blank"} - *My top recommendation*
+*   [**Alternative Design**](https://dev-krish-369.github.io/Fungro-web-design/second_design.html){:target="_blank"} - *Secondary layout option*
+
+---
+✨ *Have a good day!* ✨
